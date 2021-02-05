@@ -1,0 +1,22 @@
+{
+  "name": "uvm_forward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/computer-net/uvm_forward.git"
+  },
+  "author": "rocketeerli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/computer-net/uvm_forward/issues"
+  },
+  "homepage": "https://github.com/computer-net/uvm_forward#readme",
+  "dependencies": {
+    "lin-ui": "^0.9.2"
+  }
+}

@@ -1,0 +1,28 @@
+<view>
+  <swiper interval="1500" indicator-dots autoplay circular>
+    <swiper-item>
+      <image src="/images/bestplayers.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/lpl.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/jumpfly.png"></image>
+    </swiper-item>
+  </swiper>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar/2.png"></image>
+      <text class="post-date">Nov 18 2020</text>
+    </view>
+    <text class="post-title">2020 LPL 夏季赛季后赛观赛指南</text>
+    <image class="post-image" src="/images/lpl.png"></image>
+    <text class="post-content">本次因为受到了疫情的影响，全部赛区夏季赛的时间都进行了调整，以下就是这次全球各大赛区的夏季赛开赛时间：</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/icon/chat.png"></image>
+      <text class="post-like-text">1000</text>
+      <image class="post-like-image" src="/images/icon/view.png"></image>
+      <text class="post-like-text">2333</text>
+    </view>
+  </view>
+</view>
