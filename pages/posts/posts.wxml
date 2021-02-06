@@ -12,17 +12,19 @@
   </swiper>
   <view class="post-container">
     <view class="post-author-date">
-      <image class="post-author" src="/images/avatar/2.png"></image>
-      <text class="post-date">Nov 18 2020</text>
+      <image class="post-author" src="{{avatar}}"></image>
+      <text wx:if="{{flag}}" class="post-date">{{date}}</text>
     </view>
-    <text class="post-title">2020 LPL 夏季赛季后赛观赛指南</text>
-    <image class="post-image" src="/images/lpl.png"></image>
-    <text class="post-content">本次因为受到了疫情的影响，全部赛区夏季赛的时间都进行了调整，以下就是这次全球各大赛区的夏季赛开赛时间：</text>
+    <text class="post-title">{{title}}</text>
+    <image class="post-image" src="{{imgSrc}}"></image>
+    <text class="post-content">{{content}}</text>
     <view class="post-like">
-      <image class="post-like-image" src="/images/icon/chat.png"></image>
-      <text class="post-like-text">1000</text>
-      <image class="post-like-image" src="/images/icon/view.png"></image>
-      <text class="post-like-text">2333</text>
+      <!-- <image class="post-like-image" src="/images/icon/chat.png"></image> -->
+      <l-icon class="post-like-image" color="#666" size="28" name="favor"/>
+      <text class="post-like-text">{{collection}}</text>
+      <!-- <image class="post-like-image" src="/images/icon/view.png"></image> -->
+      <l-icon class="post-like-image" color="#666" size="32" name="eye"/>
+      <text class="post-like-text">{{reading}}</text>
     </view>
   </view>
 </view>
