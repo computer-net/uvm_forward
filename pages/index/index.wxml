@@ -4,7 +4,7 @@
   <text class="motto">Helllo, rocketeerli</text>
   <!-- 小程序自带的 button 容易出现莫名其妙的 bug -->
   <!-- <button>开启小程序之旅</button> -->
-  <view class="journey-container">
+  <view bind:tap="onTap" class="journey-container">
     <text class="journey">开启小程序之旅</text>
   </view>
 </view>

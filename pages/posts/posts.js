@@ -115,7 +115,9 @@ Page({
             }
         },
     ]
-    this.setData(postList)
+    this.setData({
+      posts: postList
+    })
   },
 
   /**

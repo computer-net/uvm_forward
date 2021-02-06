@@ -8,11 +8,21 @@ Page({
 
   },
 
+  onTap: function() {
+    console.log("onTap")
+    // wx.navigateTo({ // 子页面 子页面最多嵌套 10 层
+    //   url: '/pages/posts/posts',
+    // })
+    wx.redirectTo({
+      url: '/pages/posts/posts',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log("index onLoad")
   },
 
   /**
@@ -40,7 +50,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    console.log("index unLoad")
   },
 
   /**
